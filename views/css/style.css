@@ -1,0 +1,28 @@
+.wrapper {
+  font-family: 'Lato', sans-serif;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* MAIN HEADER */
+.main-header {
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  -webkit-align-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* SECTION */
+.section {
+  border-bottom: 1px solid #eee;
+  display: -webkit-flex;
+}
+
+.sub-section:first-child {
+  border-right: 1px solid #eee;
+}
